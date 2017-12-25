@@ -1,5 +1,5 @@
---------------------------------------------------------------------------------
-## Environment Variables
+# Environment Variables
+
 `$HOME` is a environment variable - a variable that is accessible anywhere on
 your machine.
 
