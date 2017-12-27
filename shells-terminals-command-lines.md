@@ -4,7 +4,7 @@ You may have heard of these terms: the "shell", the "terminal", and the "command
 
 What do these mean?
 
-We will approach this by stepping back, and starting with Mainframe computers...
+Let's step back and start with mainframes...
 
 
 ---
