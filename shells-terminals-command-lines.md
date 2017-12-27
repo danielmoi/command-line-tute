@@ -100,18 +100,24 @@ Input source = mouse / trackpad.
 The Finder application on a Mac is an example of a GUI.
 
 ---
-## Today
+## Consoles Today
 Nowadays, the console can be a _virtual_ console.
 
 Example: the Console application on MacOS, which continuously logs out messages from the Mac operating system.
 
 ![Console Mac](/images/console-mac.png)
 
+---
+## Terminals Today
 A terminal today can also be a _virtual_ device - a terminal emulator - software that emulates a physical terminal.
 
-As such, a terminal now is a wrapper program that runs a shell.
+As such, a terminal now is a wrapper program that runs a shell (another program).
 
-Example: the Terminal application on MacOS, iTerm
+Example: the Terminal application on MacOS (running Bash shell)
+
+![Terminal Mac Terminal](/images/terminal-terminal.png)
+
+Example: iTerm (running Zsh shell)
 
 ![Terminal iTerm](/images/terminal-iterm.png)
 
@@ -134,4 +140,4 @@ Hopefully, this article has helped you understand shells, terminals, and command
 ###  References
 https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line
 
-www.linfo.org/shell.html
+http://www.linfo.org/shell.html
