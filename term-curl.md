@@ -4,8 +4,7 @@
 Curl some files
 
 -L, --location      Follow redirects (H)
--J, --remote-header-name  Use the header-provided filename (H)
--O, --remote-name   Write output to a file named as the remote file
+-O, --remote-name   Write output to a local file named like the remote file
 
 -k, --insecure      Allow connections to SSL sites without certs (H)
 -s, --silent        Silent mode (don't output anything)
@@ -18,9 +17,8 @@ curl -Lks http://bit.do/cfg-init | /bin/bash
 # This will output the file to terminal
 curl https://raw.githubusercontent.com/danielmoi/dotfiles/master/.aliases.public.sh
 
-Instead of this:
+Instead of specifying the file name like this:
 curl https://raw.githubusercontent.com/danielmoi/dotfiles/master/.aliases.public.sh > .aliases.public.sh
 
-Do this:
-- writes output to a file
-curl -JLO https://raw.githubusercontent.com/danielmoi/dotfiles/master/.aliases.public.sh
+We can use the same file name as the incoming file:
+curl -LO https://raw.githubusercontent.com/danielmoi/dotfiles/master/.aliases.public.sh

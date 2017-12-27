@@ -1,0 +1,61 @@
+# -- Operating System ----------
+# MacOS
+.DS_Store
+
+
+# -- Languages -----------------
+# C++
+*.dSYM
+include
+
+# C++ (me)
+Go
+
+# Rust
+target
+
+# -- Environments --------------
+# Node
+node_modules
+
+
+# -- Files ---------------------
+# Documents
+*.pdf
+*.doc*
+
+# Compressed files
+*.zip
+
+# Temporary files
+*.swp
+
+# Images
+# *.png
+# *.jpg
+# *.gif
+
+
+
+# -- Editor ----------------------
+.vscode
+
+
+# -- Logging -------------------
+logs
+
+
+# -- Security ------------------
+.env*
+.aliases.private*
+
+
+
+
+# -- Custom --------------------
+# Screenshots
+# _screenshots
+# screenshots
+
+
+# Other
