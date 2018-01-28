@@ -109,7 +109,10 @@ Example: the Console application on MacOS, which continuously logs out messages 
 
 ---
 ## Terminals Today
-A terminal today can also be a _virtual_ device - a terminal emulator - software that emulates a physical terminal.
+A terminal today can also be a _virtual_ device - software that emulates a physical terminal.
+
+It is more correct to use the term "terminal emulator" for a virtual terminal, but it is common
+to just use the term "terminal".
 
 As such, a terminal now is a wrapper program that runs a shell (another program).
 

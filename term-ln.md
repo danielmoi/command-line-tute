@@ -3,6 +3,8 @@
 ln -flags <source> <target>
 ```
 
+TIP: Source Target (alphabetical)
+
 Example:
 ```
 ln -si my-source.md my-target.md
@@ -23,6 +25,7 @@ If nothing appears in the bottom bar, then the link was incorrect
 Link some files
 
 ```
+ln -si ~/dotfiles/bashrc ~/.bashrc
 ln -si ~/dotfiles/bash_profile ~/.bash_profile
 ln -si ~/dotfiles/zshrc ~/.zshrc
 
