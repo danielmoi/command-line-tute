@@ -1,4 +1,9 @@
-# Shells, Terminals, and Command Lines
+# Overview
+
+Ok, let's get started.
+
+
+## Shells, Terminals, and Command Lines
 
 You may have heard of these terms: the "shell", the "terminal", and the "command line".
 
