@@ -1,6 +1,6 @@
 # Overview
 
-Ok, let's get started.
+Ok, let's start with an overview.
 
 
 ## Shells, Terminals, and Command Lines
