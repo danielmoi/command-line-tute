@@ -6,8 +6,12 @@ Put simply, it is a line in the terminal into which a user types commands.
 
 Everything you type into the command line is a command (or arguments into a command).
 
+This tells the shell to execute the relevant program(s).
+
 One of the most common things typed into the command line is `ls`, which produces a list of the
 files in the current directory.
+
+
 
 ```
 $ ls
