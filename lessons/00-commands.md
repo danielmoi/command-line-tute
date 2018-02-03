@@ -2,14 +2,16 @@
 
 What is the command line?
 
-Put simply, it is a line in the terminal into which a user types commands.
+Put simply, it is a line in the terminal where a user types commands.
 
-Everything you type into the command line is a command (or arguments into a command).
+These commands are executed by the shell, in interaction with the kernel.
 
-This tells the shell to execute the relevant program(s).
+----
+Everything you type into the command line is a command (or arguments for a command).
 
-One of the most common things typed into the command line is `ls`, which produces a list of the
-files in the current directory.
+For example, `ls`.
+
+It produces a list produces a list of the files in the current directory.
 
 
 

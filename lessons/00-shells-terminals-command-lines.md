@@ -137,10 +137,17 @@ SSH is another example of a terminal - it connects a terminal on one machine wit
 So, to bring it all together, in the context of a modern Mac laptop,
 - the "mainframe" would be the laptop itself
 - the "shell" would be Bash, the default shell installed on a Mac
-- the "terminal" would be the terminal program (each open tab would be a new "terminal")
-- the "console" would be the console program
+- the "terminal" would be the Terminal application (each tab would be a new "terminal")
+- the "console" would be the Console application
+
+The USER _types_ COMMANDS into the COMMAND LINE of the TERMINAL.
+
+These commands are _executed_ by the SHELL, in interaction with the KERNEL.
+
+The shell then displays relevant output in the terminal, such as data or a success/failure code.
 
 
+----
 Hopefully, this article has helped you understand shells, terminals, and command lines - and a few other terms along the way!
 
 
