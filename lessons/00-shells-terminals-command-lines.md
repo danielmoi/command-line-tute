@@ -93,7 +93,13 @@ As such, the "shell prompt" is the command prompt for the shell, and it usually 
 $
 ```
 
+The command prompt:
+
+![Command Prompt](/images/command-prompt.png)
+
+
 The "command line" is the space to the right of the command prompt, and is where the user types commands.
+![Command Line](/images/command-line.png)
 
 
 ---
