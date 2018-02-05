@@ -5,27 +5,38 @@
     * [Commands](/lessons/00-commands.md)
     * [Environment Variables](/lessons/99-environment-variables.md)
 * Common Commands
-    * [ls]
-    * [cd]
-    * |
-    * [alias]
+    * Display / Information
+      * [ls]
+      * cat
+      * less
+      * [grep]
 
-    FILES
-    * mv
-    * cp
-    * touch
-    * rm
-    * mkdir
+    * Utility
+      * |
+      * [alias]
 
-    * ln
-    * cat
-    * less
-    * man
-    * [ps]
-    * [inet]
-    * [grep]
-    * curl
-    * ssh
+    * System
+      * [ps]
+      * ifconfig - ifconfig | grep inet
+
+    * Navigation
+      * [cd]
+
+    * Editing
+      * touch
+      * mkdir
+      * mv
+      * cp
+      * rm
+      * ln
+
+    * Help
+      * man
+
+    * External
+      * curl
+      * ssh
+
 * Third Party Programs
     * git
     * docker
@@ -34,6 +45,8 @@
       * docs
       * whoami
       * login
+
+* Bash Scripts
 
 * [Next Steps](lessons/99-next-steps.md)
 
