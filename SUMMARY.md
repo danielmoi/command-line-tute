@@ -5,7 +5,7 @@
     * [Commands](/lessons/00-commands.md)
     * [Environment Variables](/lessons/99-environment-variables.md)
 * Common Commands
-    * Display / Information
+    * Display / Find
       * [ls]
       * cat
       * less
@@ -13,6 +13,7 @@
 
     * Utility
       * |
+      * tab completion
       * [alias]
 
     * System
