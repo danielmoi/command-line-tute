@@ -1,6 +1,24 @@
-## List
+# `ls`
 
-This will give us an "all" view, but pipe it into the "less" program, so it's paginated!
+
+## Name
+List directory contents
+
+
+----
+## Standard
 ```
-ls -la | less
+ls
+```
+
+
+## Examples
+```
+ls -1                   List, 1 per line
+
+ls -a                   List, "all" view (include hidden files)
+
+ls -l                   List, "long" format
+
+ls -la | less           ... pipe into "less", so it's paginated
 ```
