@@ -15,6 +15,7 @@
       * |
       * tab completion
       * [alias]
+      * --
 
     * System
       * [ps]
