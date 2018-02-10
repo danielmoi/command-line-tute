@@ -6,7 +6,7 @@
     * [Environment Variables](/lessons/99-environment-variables.md)
 * Common Commands
     * Display / Find
-      * [ls]
+      * [`ls`](/commands/ls.md)
       * cat
       * less
       * [grep]
