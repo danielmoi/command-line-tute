@@ -7,7 +7,7 @@
 * Common Commands
     * Display / Find
       * [`ls`](/commands/ls.md)
-      * cat
+      * [`cat`](/commands/cat.md)
       * less
       * [grep]
 
