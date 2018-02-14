@@ -6,10 +6,14 @@ List directory contents
 
 
 ----
-## Standard
+## Usage
 ```
-ls
+ls [-options] [dirName]
 ```
+
+----
+## Description
+List directory contents
 
 
 ## Examples
