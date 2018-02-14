@@ -24,7 +24,9 @@ Faster load times than other Unix editors/viewers because `less` doesn't read th
 ---
 ## Examples
 ```
-less README.md      View README.md, one page at a time
+less README.md                View README.md, one screen at a time
 
-ls | less           List directory, one page at a time
+ls | less                     List directory, one screen at a time
+
+less +F /var/log/mail.log     Follow mode, for log file
 ```
