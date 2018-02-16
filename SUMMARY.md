@@ -8,8 +8,8 @@
     * Display / Find
       * [`ls`](/commands/ls.md)
       * [`cat`](/commands/cat.md)
-      * less
-      * [grep]
+      * [`less`](/commands/less.md)
+      * [`grep`](/grep.md)
 
     * Utility
       * |
@@ -18,32 +18,32 @@
       * --
 
     * System
-      * [ps]
+      * [`ps`](/ps.md)
       * ifconfig - ifconfig | grep inet
 
     * Navigation
-      * [cd]
+      * [`cd`](/cd.md)
 
     * Editing
-      * touch
-      * mkdir
-      * mv
-      * cp
-      * rm
-      * ln
+      * [`touch`](/touch.md)
+      * [`mkdir`](/mkdir.md)
+      * [ `mv` ]
+      * [`cp`]
+      * [`rm`]
+      * [ `ln` ]
 
     * Help
-      * man
+      * `man`
 
     * External
-      * curl
-      * ssh
+      * `curl`
+      * `ssh`
 
 * Third Party Programs
-    * git
-    * docker
-    * rg
-    * npm
+    * `git`
+    * `docker`
+    * `rg`
+    * `npm`
       * docs
       * whoami
       * login
