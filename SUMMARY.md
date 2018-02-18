@@ -9,7 +9,7 @@
       * [`ls`](/commands/ls.md)
       * [`cat`](/commands/cat.md)
       * [`less`](/commands/less.md)
-      * [`grep`](/grep.md)
+      * [`grep`](/commands/grep.md)
 
     * Utility
       * |
