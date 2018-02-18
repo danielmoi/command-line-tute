@@ -13,11 +13,11 @@ less fileName
 
 ----
 ## Description
-Terminal pager program.
+A terminal pager program.
 
-View file, one screen at a time.
+Allows a file to be viwed, one screen at a time.
 
-Allows forward and backward navigation (unlike `more`)
+Allows forward and backward navigation (unlike `more`, another terminal pager program, which only allows foward navigation)
 
 Faster load times than other Unix editors/viewers because `less` doesn't read the entire file before loading.
 
