@@ -38,6 +38,14 @@ grep -i hello file.md     Grep, case-insensitive
 
 ```
 
+----
+## Defaults
+```
+# which grep
+
+grep: aliased to grep  --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn}
+```
+
 ---
 ## Tutorial
 ---
