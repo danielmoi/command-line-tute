@@ -26,3 +26,13 @@ ls -l                   List, "long" format
 
 ls -la | less           ... pipe into "less", so it's paginated
 ```
+
+
+---
+## Defaults
+```
+$ which ls
+
+ls: aliased to ls -G
+# enable colorized output
+```
