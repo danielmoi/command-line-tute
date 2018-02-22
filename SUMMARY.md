@@ -11,29 +11,31 @@
       * [`less`](/commands/less.md)
       * [`grep`](/commands/grep.md)
 
-    * Utility
-      * |
-      * tab completion
-      * [alias]
+    * Utility / Operators
+      * [`|`](/commands/pipe.md)
+      * [`>`](/commands/redirection.md)
+      * [tab completion](/commands/tab-completion.md)
+      * [`alias`](/commands/alias.md)
       * --
 
     * System
-      * [`ps`](/ps.md)
-      * ifconfig - ifconfig | grep inet
+      * [`ps`](/commands/ps.md)
+      * [`ifconfig`](/commands/ifconfig.md)
+        - ifconfig | grep inet
 
     * Navigation
-      * [`cd`](/cd.md)
+      * [`cd`](/commands/cd.md)
 
     * Editing
-      * [`touch`](/touch.md)
-      * [`mkdir`](/mkdir.md)
-      * [ `mv` ]
-      * [`cp`]
-      * [`rm`]
-      * [ `ln` ]
+      * [`touch`](/commands/touch.md)
+      * [`mkdir`](/commands/mkdir.md)
+      * [`mv`](/commands/mv.md)
+      * [`cp`](/commands/cp.md)
+      * [`rm`](/commands/rm.md)
+      * [`ln`](/commands/ln.md)
 
     * Help
-      * `man`
+      * [`man`](/commands/man.md)
 
     * External
       * `curl`
