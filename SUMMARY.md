@@ -38,14 +38,14 @@
       * [`man`](/commands/man.md)
 
     * External
-      * `curl`
-      * `ssh`
+      * [`curl`](/commands/curl.md)
+      * [`ssh`](/commands/ssh.md)
 
 * Third Party Programs
-    * `git`
-    * `docker`
-    * `rg`
-    * `npm`
+    * [`git`](/commands/git.md)
+    * [`docker`](/commands/docker.md)
+    * [`rg`](/commands/docker.md)
+    * [`npm`](/commands/docker.md)
       * docs
       * whoami
       * login
