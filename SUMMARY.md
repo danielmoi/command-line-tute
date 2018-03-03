@@ -10,6 +10,7 @@
       * [`cat`](/commands/cat.md)
       * [`less`](/commands/less.md)
       * [`grep`](/commands/grep.md)
+      * [`wc`](/commands/wc.md)
 
     * Utility / Operators
       * [`|`](/commands/pipe.md)
