@@ -1,7 +1,7 @@
-# `>`
+# `>`, `<`, `>>`
 
 ## Name
-Redirection operator
+Redirection operators
 
 ---
 ## Usage
@@ -20,8 +20,8 @@ They allow you to control the input and output of commands.
 Redirections are processed in the order they appear, from left to right.
 
 
-## `<` operator
 ---
+## `<` operator
 
 This operator directs input to a command
 ## Examples
@@ -33,6 +33,7 @@ $ wc < readme.md
 ```
 
 
+----
 ## `>` operator
 This operator directs the standard output `stdout` of a command into a file
 
@@ -81,4 +82,8 @@ the new data is APPENDED to the target file (instead of overwriting the target f
 
 ```
 $ command >> out.txt
+```
+List all files and directories and save it to `out.txt`:
+```
+$ ls -a >> out.txt
 ```
