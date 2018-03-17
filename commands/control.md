@@ -24,12 +24,41 @@ $ command1; command2
 - `command2` will run regardless of whether `command1` succeeds.
 
 ## A2. `&` (ampersand)
+The `&` token will run a command in the background, and start running the next command in the foreground (without waiting for the previous command to exit)
 
+```
+$ command1 & command2
+```
+- `command1` is launched in the background
+- `command2` is launched in the foreground
 
 ----
 ## B. Logical Operators
-## B1. `&&`
+## B1. `&&` (AND)
+`&&` is used to build AND lists - allowing you to run a command only if another command exists successfully
+```
+$ command1 && command2
+```
+- `command1` is launched in the foreground
+- `command1` completes successfully (exit code 0)
+- `command2` is launched in the foreground
+
+This command is equivalent to:
+```
+if command1
+then command2
+else false
+fi
+```
+
+Also:
+```
+if command1; then command2; fi
+```
+
+----
 ## B2. `||`
+
 ## B3. `!`
 
 ----
