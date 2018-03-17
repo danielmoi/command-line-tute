@@ -35,7 +35,7 @@ $ command1 & command2
 ----
 ## B. Logical Operators
 ## B1. `&&` (AND)
-`&&` is used to build AND lists - allowing you to run a command only if another command exists successfully
+`&&` is used to build AND lists - allowing you to run a command only if another command exits successfully
 ```
 $ command1 && command2
 ```
@@ -57,7 +57,29 @@ if command1; then command2; fi
 ```
 
 ----
-## B2. `||`
+## B2. `||` (OR)
+`||` is used to build OR lists - allowing you to run a command only if another command exits unsuccessfully (fails).
+
+```
+$ command1 || command2
+```
+- `command1` is launched in the foreground
+- `command1` fails (exit code other than 0)
+- `command2` is launched in the foreground
+
+This command is equivalent to:
+```
+if command1
+then true
+else command2
+fi
+```
+
+Also:
+```
+if !command1; then command2; fi
+```
+
 
 ## B3. `!`
 
