@@ -81,6 +81,7 @@ $ if ! command1; then command2; fi
 ```
 
 
+----
 ## B3. `!` (NOT)
 This is used to negate the return status of a command (return `0` if the command returns a nonzero status, return `1` if it returns the status `0`)
 
