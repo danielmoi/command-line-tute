@@ -45,7 +45,7 @@ $ command1 && command2
 
 This command is equivalent to:
 ```
-if command1
+$ if command1
 then command2
 else false
 fi
@@ -53,7 +53,7 @@ fi
 
 Also:
 ```
-if command1; then command2; fi
+$ if command1; then command2; fi
 ```
 
 ----
@@ -69,7 +69,7 @@ $ command1 || command2
 
 This command is equivalent to:
 ```
-if command1
+$ if command1
 then true
 else command2
 fi
@@ -77,11 +77,18 @@ fi
 
 Also:
 ```
-if !command1; then command2; fi
+$ if ! command1; then command2; fi
 ```
 
 
-## B3. `!`
+## B3. `!` (NOT)
+This is used to negate the return status of a command (return `0` if the command returns a nonzero status, return `1` if it returns the status `0`)
+
+```
+! command1
+```
+NB. there must be a `SPACE` after the `!` (`!` is used for history autocompletion, when immediately followed by characters)
+
 
 ----
 ## C. Pipe Operator
