@@ -13,8 +13,10 @@
       * [`wc`](/commands/wc.md)
 
     * Utility / Operators
-      * [`|`](/commands/pipe.md)
-      * [`>`](/commands/redirection.md)
+      * [`|` (pipe operator)](/commands/pipe.md)
+      * [`> < >>` (redirection operators)](/commands/redirection.md)
+      * [`; & && || !` (control operators)](/commands/control.md)
+
       * [tab completion](/commands/tab-completion.md)
       * [`alias`](/commands/alias.md)
       * --
