@@ -19,7 +19,7 @@
 
       * [tab completion](/commands/tab-completion.md)
       * [`alias`](/commands/alias.md)
-      * --
+      * [`--` (double-dash operator)](/commands/double-dash.md)
 
     * System
       * [`ps`](/commands/ps.md)
