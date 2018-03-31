@@ -7,51 +7,49 @@
 
 * Common Commands
     * Display / Find
-      * [`ls`](/commands/ls.md)
-      * [`cat`](/commands/cat.md)
-      * [`less`](/commands/less.md)
-      * [`grep`](/commands/grep.md)
-      * [`wc`](/commands/wc.md)
+      * [`ls`](/commands/display/ls.md)
+      * [`cat`](/commands/display/cat.md)
+      * [`less`](/commands/display/less.md)
+      * [`grep`](/commands/display/grep.md)
+      * [`wc`](/commands/display/wc.md)
 
     * Utility / Operators
-      * [`|` (pipe operator)](/commands/pipe.md)
-      * [`> < >>` (redirection operators)](/commands/redirection.md)
-      * [`; & && || !` (control operators)](/commands/control.md)
+      * [`|` (pipe operator)](/commands/utility/pipe.md)
+      * [`> < >>` (redirection operators)](/commands/utility/redirection.md)
+      * [`; & && || !` (control operators)](/commands/utility/control.md)
 
-      * [tab completion](/commands/tab-completion.md)
-      * [`alias`](/commands/alias.md)
-      * [`--` (double-dash operator)](/commands/double-dash.md)
+      * [tab completion](/commands/utility/tab-completion.md)
+      * [`alias`](/commands/utility/alias.md)
+      * [`--` (double-dash operator)](/commands/utility/double-dash.md)
 
     * System
-      * [`ps`](/commands/ps.md)
-      * [`ifconfig`](/commands/ifconfig.md)
+      * [`ps`](/commands/system/ps.md)
+      * [`ifconfig`](/commands/system/ifconfig.md)
 
     * Navigation
-      * [`cd`](/commands/cd.md)
+      * [`cd`](/commands/navigation/cd.md)
+      * [command line navigation](/commands/navigation/cl-navigation.md)
 
     * Editing
-      * [`touch`](/commands/touch.md)
-      * [`mkdir`](/commands/mkdir.md)
-      * [`mv`](/commands/mv.md)
-      * [`cp`](/commands/cp.md)
-      * [`rm`](/commands/rm.md)
-      * [`ln`](/commands/ln.md)
+      * [`touch`](/commands/edit/touch.md)
+      * [`mkdir`](/commands/edit/mkdir.md)
+      * [`mv`](/commands/edit/mv.md)
+      * [`cp`](/commands/edit/cp.md)
+      * [`rm`](/commands/edit/rm.md)
+      * [`ln`](/commands/edit/ln.md)
 
     * Help
-      * [`man`](/commands/man.md)
+      * [`man`](/commands/help/man.md)
 
-    * External
-      * [`curl`](/commands/curl.md)
-      * [`ssh`](/commands/ssh.md)
+    * Remote
+      * [`curl`](/commands/remote/curl.md)
+      * [`ssh`](/commands/remote/ssh.md)
 
 * Third Party Programs
-    * [`git`](/commands/git.md)
-    * [`docker`](/commands/docker.md)
-    * [`rg`](/commands/rg.md)
-    * [`npm`](/commands/npm.md)
-      * docs
-      * whoami
-      * login
+    * [`git`](/commands/third-party/git.md)
+    * [`docker`](/commands/third-party/docker.md)
+    * [`rg`](/commands/third-party/rg.md)
+    * [`npm`](/commands/third-party/npm.md)
 
 * Bash Scripts
 
