@@ -17,3 +17,24 @@ There are several benefits to this:
 
 ---
 ## Examples
+
+Using tab completion on `ls` displays a list of 11 commands that start with `ls`
+```
+$ ls <TAB>
+LSCOLORS   ls         lsa        lsappinfo  lsbom      lskq       lsl        lsm        lsmp       lsof       lsvfs
+```
+
+----
+We can also use tab completion when moving files with the `mv` command:
+```
+$ mv file<TAB>
+file1.md  file2.md
+```
+We can see that there are 3 files starting with `file`, and if we type an additional `1` character,
+tab completion will auto-fill it with `file1.md` - the full filename for the only file that starts with  `file1`.
+
+```
+$ mv file1<TAB>
+
+$ mv file1.md
+```
