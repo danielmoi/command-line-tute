@@ -59,5 +59,12 @@ inet 111.111.1.1 netmask 0xffffff00 broadcast 222.222.2.222
 ```
 Where 111.111.1.1 is the IP address of our machine.
 
+----
+We can also be more specific, so only one line is printed to standard output:
+```
+$ ifconfig | rg 'inet .* broadcast'
+```
+
+
 ---
 Used otherwise, it CONFIGURES an interface.
