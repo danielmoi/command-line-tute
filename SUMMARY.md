@@ -24,7 +24,6 @@
     * System
       * [`ps`](/commands/ps.md)
       * [`ifconfig`](/commands/ifconfig.md)
-        - ifconfig | grep inet
 
     * Navigation
       * [`cd`](/commands/cd.md)

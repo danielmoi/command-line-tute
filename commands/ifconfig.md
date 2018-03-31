@@ -55,7 +55,13 @@ We can get the IP address of our machine by doing this:
 ```
 $ ifconfig | grep inet
 
+inet <details>
+inet6 <details>
+inet6 <details>
+inet6 <details>
 inet 111.111.1.1 netmask 0xffffff00 broadcast 222.222.2.222
+inet6 ... <details>
+inet6 ... <details>
 ```
 Where 111.111.1.1 is the IP address of our machine.
 
@@ -63,6 +69,8 @@ Where 111.111.1.1 is the IP address of our machine.
 We can also be more specific, so only one line is printed to standard output:
 ```
 $ ifconfig | rg 'inet .* broadcast'
+
+inet 111.111.1.1 netmask 0xffffff00 broadcast 222.222.2.222
 ```
 
 
