@@ -1,7 +1,7 @@
 # `ifconfig`
 
 ## Name
-Configure network interface parameters
+Interface Configuration
 
 ----
 ## Usage
