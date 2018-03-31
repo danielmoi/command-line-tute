@@ -1,5 +1,8 @@
 # Resources
 
+## Useful sites
+- linuxcommand.org
+- Unix Stackexchange https://unix.stackexchange.com/
 ## Tips
 
 - for commands that have "from" and "to" locations (eg. `cp`, `ln`, etc), remember that the order of these arguments is ALPHABETICAL

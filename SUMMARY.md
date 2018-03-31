@@ -5,7 +5,7 @@
     * [Commands](/lessons/00-commands.md)
     * [Environment Variables](/lessons/99-environment-variables.md)
 
-* Common Commands
+* Commands
     * Display / Find
       * [`ls`](/commands/display/ls.md)
       * [`cat`](/commands/display/cat.md)
@@ -40,16 +40,18 @@
 
     * Help
       * [`man`](/commands/help/man.md)
+      * [`notes on bash manual page`](/commands/help/man-bash.md)
+      * [`notes on zsh manual page`](/commands/help/man-zsh.md)
 
     * Remote
       * [`curl`](/commands/remote/curl.md)
       * [`ssh`](/commands/remote/ssh.md)
 
-* Third Party Programs
-    * [`git`](/commands/third-party/git.md)
-    * [`docker`](/commands/third-party/docker.md)
-    * [`rg`](/commands/third-party/rg.md)
-    * [`npm`](/commands/third-party/npm.md)
+    * Third Party Programs
+        * [`git`](/commands/third-party/git.md)
+        * [`docker`](/commands/third-party/docker.md)
+        * [`rg`](/commands/third-party/rg.md)
+        * [`npm`](/commands/third-party/npm.md)
 
 * Bash Scripts
 
