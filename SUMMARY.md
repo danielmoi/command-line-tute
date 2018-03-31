@@ -47,8 +47,8 @@
 * Third Party Programs
     * [`git`](/commands/git.md)
     * [`docker`](/commands/docker.md)
-    * [`rg`](/commands/docker.md)
-    * [`npm`](/commands/docker.md)
+    * [`rg`](/commands/rg.md)
+    * [`npm`](/commands/npm.md)
       * docs
       * whoami
       * login
