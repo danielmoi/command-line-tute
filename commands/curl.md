@@ -14,7 +14,7 @@ $ curl [options] [URL]
 
 It supports many protocols (such as HTTP, FTP, etc)
 
-The server location is at the specified URL.
+The server / resource location is at the specified URL.
 
 ----
 ## Options
