@@ -28,12 +28,12 @@ all of your processes that have controlling terminals.
 ---
 ## Examples
 
-List all processes
+List all processes (for current user)
 ```
 ps
 ```
 ---
-List all processes, for all users, with the process user/owner, and processes not attached to a terminal
+List all processes, for ALL users (`a`), display the process user/owner (`u`), and include processes not attached to a terminal (`x`)
 ```
 ps aux
 ```
