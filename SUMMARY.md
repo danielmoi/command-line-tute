@@ -4,6 +4,7 @@
     * [Overview](/lessons/00-shells-terminals-command-lines.md)
     * [Commands](/lessons/00-commands.md)
     * [Environment Variables](/lessons/99-environment-variables.md)
+
 * Common Commands
     * Display / Find
       * [`ls`](/commands/ls.md)
