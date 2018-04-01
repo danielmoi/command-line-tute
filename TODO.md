@@ -1,5 +1,5 @@
 # Coming Soon
-- [ ] port over files from dotfiles [171226]
+- [x] port over files from dotfiles [171226]
 
 - [ ] Shell scripts [171226]
 
@@ -35,3 +35,5 @@
   - ls -1 -- ~
 - ifconfig
 
+- "binaries"
+  - which ls
