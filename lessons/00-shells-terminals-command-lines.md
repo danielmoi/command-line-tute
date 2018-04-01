@@ -34,7 +34,7 @@ A terminal is a physical device with a monitor and a keyboard.
 
 A terminal provides a text input/output environment in which a user can interact with a mainframe.
 
-As such, a terminal is a remote piece of hardware.
+As such, a terminal is a piece of hardware, located remotely from the mainframe.
 
 A user at a terminal:
 
@@ -54,7 +54,7 @@ Users at a console:
 ## Shell
 A shell is software (a computer program).
 
- It runs in the terminal.
+It runs in the terminal.
 
 The shell takes commands typed by a user into the terminal and executes them.
 
@@ -66,7 +66,10 @@ Examples of these commands:
 
 There are many different shells.
 
-In the unix universe, there is `Bash` (the default shell for Ubuntu, and other Linux distributions), `zsh` (which emphasizes power and customizability), and `fish` (which emphasizes simplicity).
+In the unix universe, there is:
+- `bash` (the default shell for Ubuntu, and other Linux distributions),
+- `zsh` (which emphasizes power and customizability),
+- `fish` (which emphasizes simplicity)
 
 ---
 ## Kernel
