@@ -5,19 +5,20 @@
 - Unix Stackexchange https://unix.stackexchange.com/
 ## Tips
 
-- for commands that have "from" and "to" locations (eg. `cp`, `ln`, etc), remember that the order of these arguments is ALPHABETICAL
+- Don't feel intimidated! There's a LOT to learn about the command line, but learning just the basics is incredibly useful
+- For commands that have "from" and "to" locations (eg. `cp`, `ln`, etc), remember that the order of these arguments is ALPHABETICAL
   - source > target (S ... T)
   - from > to (F ... T)
 
-- tab completion is your friend!
+- Tab completion is your friend!
 
 
-- use the `man` command to find out more about a command
+- Use the `man` command to find out more about a command
   ```
   $ man curl
   ```
 
-- use the `--help` flag to find out more about a command
+- Use the `--help` flag to find out more about a command
   ```
   $ docker --help
   ```
@@ -28,7 +29,7 @@
   $ docker system prune --help
   ```
 
-- make a "sandbox" / "scratch" directory to experiment in:
+- Make a "sandbox" / "scratch" directory to experiment in:
   ```
   $ mkdir ~/blah
 
