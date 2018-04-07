@@ -6,11 +6,14 @@ At the moment, your terminal is showing this:
 ```
 
 Some important things displayed in this line:
-1. Location = we are in the `~` directory
-2. Command prompt = the `$`
-  - this indicates that the shell is ready to receive commands
-3. Command line = the space after the command prompt
-  - we type our commands here
+1. Location
+    - we are in the `~` directory
+2. Command prompt
+    - this is the "`$`"
+    - this indicates that the shell is ready to receive commands
+3. Command line
+    - the empty spaces after the command prompt
+    - we type our commands here
 
 
 ---
@@ -50,6 +53,17 @@ $ cd ..
 
 Nothing happens, because we are already at the top-most directory.
 
+Here is a sample tree to illustrate this:
+```
+/ (Root directory (/))
+├── Applications
+├── Library
+├── Network
+├── Users
+└── var
+```
+
+
 ---
 ## Home directory
 The home directory is the base directory for the user currently logged in to a machine.
@@ -59,24 +73,63 @@ On a Mac, my home directory is at `/Users/danielmoi`.
 That is, starting from the root directory (`MacintoshHD`, referenced as `/`),
 there is a `Users` directory where each user has their own home directory.
 
-Here is a sample tree to illustrate this:
+Let's expand the previous tree to illustrate this:
 
 ```
-.
-└── Users
-    ├── Guest
-    ├── Shared
-    ├── danielmoi
-    ├── pikachu
-    └── snorlax
+/ (Root directory)
+├── Applications
+├── Library
+├── Network
+├── Users
+│   ├── Guest
+│   ├── Shared
+│   ├── danielmoi (Home directory (~) when logged in as danielmoi)
+│   ├── pikachu
+│   └── snorlax
+└── var
 ```
 
-There are 2 home directories for Guest and Shared users.
+There are 4 home directories.
 
-There are also home directories for each of the 3 users (`danielmoi`, `elmo`, and `jessicajones`).
+There are home directories for Guest and Shared users.
+
+There are also home directories for each of the 3 users (`danielmoi`, `pikachu`, and `snorlax`).
 
 Logged in as `danielmoi`, navigating to `~` would take me to `/Users/danielmoi`.
 
-Similarly, logged in as `pikachu`, `~` would take me to `/Users/pikachu`, and so on.
+Similarly, logged in as `pikachu`, `~` would take me to `/Users/pikachu`.
+Again, logged in as `snorlax`, `~` would take me to `/Users/snorlax`.
 
 This is called TILDE EXPANSION.
+
+The Home Directory is where "personal" files are kept for each user.
+These include directories such as `Documents` and `Downloads`.
+
+Each user has their own `Documents` and `Downloads` directories (inside their own Home Directory)
+
+Let's expand the previous tree to illustrate this:
+```
+/ (Root directory)
+├── Applications
+├── Library
+├── Network
+├── Users
+│   ├── Guest
+│   │   ├── Documents
+│   │   └── Downloads
+│   ├── Shared
+│   │   ├── Documents
+│   │   └── Downloads
+│   ├── danielmoi (Home directory (~) when logged in as danielmoi)
+│   │   ├── Documents
+│   │   └── Downloads
+│   ├── pikachu
+│   │   ├── Documents
+│   │   └── Downloads
+│   └── snorlax
+│       ├── Documents
+│       └── Downloads
+└── var
+```
+
+Note: The Root Directory is really the Home Directory for the `root` user.
