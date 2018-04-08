@@ -89,9 +89,9 @@ Let's expand the previous tree to illustrate this:
 └── var
 ```
 
-There are 4 home directories.
+There are 5 home directories in this tree.
 
-There are home directories for Guest and Shared users.
+There are home directories for the default Guest and Shared users.
 
 There are also home directories for each of the 3 users (`danielmoi`, `pikachu`, and `snorlax`).
 
