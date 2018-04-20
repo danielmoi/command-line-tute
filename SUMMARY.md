@@ -2,6 +2,7 @@
 
 * Part 1
     * [Overview](/lessons/00-shells-terminals-command-lines.md)
+    * [Cool things](/cool.md)
     * [Setup Shell](/lessons/setup-shell.md)
     * [Setup Terminal](/lessons/setup-terminal.md)
     * [Hidden Files](/lessons/hidden-files.md)
