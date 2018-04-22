@@ -21,7 +21,11 @@ Here's what it looks like:
 ### 1. Productivity
 The command line is available on all computers.
 
+- connect to remote databases
+- update remote server files
 
+### 2. Cool things
+Here are some [examples](/cool-things.md) of some neat things we can do in the command line.
 
 
 ## But why another tutorial on the command line?
