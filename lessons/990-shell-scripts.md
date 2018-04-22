@@ -17,10 +17,13 @@ Let's navigate to that directory:
 $ cd ~/blah
 ```
 
-Now let's create a file called `magic.sh`
+Now let's create a file called `magic`
 ```
-$ touch magic.sh
+$ touch magic
 ```
+
+Note: this is a shell script, so we could name it `magic.sh`, but file extensions are not necessary for shell scripts / executable files.
+
 
 And using a code editor of your choosing, add this to the file:
 
@@ -51,10 +54,24 @@ Don't forget to save the file.
 ```
 
 ----
-## Execution
+## Execution (Part 1)
 Now let's execute our shell script
 
+```
+$ magic
+```
 
+We get this error:
+```
+$ magic
+zsh: command not found: magic
+```
+
+We need, instead, to specify the PATH to our file.
+
+
+---
+## Execution (Part 2)
 Let's use tab completion to access our file:
 ```
 $ ./m<TAB>
@@ -62,15 +79,15 @@ $ ./m<TAB>
 
 We should see this:
 ```
-$ ./magic.sh
+$ ./magic
 ```
 
 Press `<ENTER>`
 
 You should see this error:
 ```
-$ ./magic.sh
-zsh: permission denied: ./magic.sh
+$ ./magic
+zsh: permission denied: ./magic
 ```
 
 This means that the file is not able to executed.
@@ -83,8 +100,8 @@ We do not have permission to `execute` that file.
 ## Inspect permissions
 Let's inspect the permissions on our file:
 ```
-$  lsa magic.sh
--rw-r--r--  1 danielmoi  staff  42 22 Apr 11:55 magic.sh
+$  lsa magic
+-rw-r--r--  1 danielmoi  staff  42 22 Apr 11:55 magic
 ```
 
 This tells us that we are unable to execute the file.
@@ -97,12 +114,12 @@ We will look deeper into permission in a later [lesson](/permissions.md)
 To change our file permissions we will use the `chmod` command.
 
 ```
-$ chmod 755 magic.sh
+$ chmod 755 magic
 ```
 
 Now let's try again
 ```
-$ ./magic.sh
+$ ./magic
 
 ABRA!
 ```
