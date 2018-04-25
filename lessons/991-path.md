@@ -61,7 +61,7 @@ $ magic
 zsh: command not found: magic
 ```
 
-However, when we specify the directory of our program (the current directory, specified as `./`), the shell is able to find, and execute that program:
+However, when we specify the LOCATION of our program (the PATH to the directory in which it is located - in this case, the current directory, specified as `./`), the shell is able to find, and execute that program:
 ```
 $ ./magic
 ABRA!
@@ -71,6 +71,8 @@ If `magic` was located in a child directory (`spells`), we would have needed to 
 ```
 $ ./spells/magic
 ```
+
+---
 
 
 
