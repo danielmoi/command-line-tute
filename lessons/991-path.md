@@ -1,6 +1,6 @@
 # Path
 
-We're going to look at the paths and the `$PATH` variable.
+We're going to look at the paths and the `$PATH` environment variable.
 
 We made our shell script `magic` in the previous lesson.
 
@@ -26,9 +26,15 @@ zsh: command not found: magic
 
 This is because our shell is trying to execute the command `magic` but it doesn't know WHERE to look for the program.
 
-By default, the shell will look in a list of directories for where the `magic` program lives.
+When the shell receives a command, it will look in a list of directories for that program.
+
+So, when we type `magic`, our shell will attempt to locate the program `magic` in those directories.
 
 This list of directories is stored in a variable called `$PATH`.
+
+`$PATH` is also called the EXECUTABLE PATH.
+
+A list of paths to directories that hold executable files (programs).
 
 ----
 ## $PATH
