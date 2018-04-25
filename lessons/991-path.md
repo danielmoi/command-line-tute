@@ -73,6 +73,49 @@ $ ./spells/magic
 ```
 
 ---
+## Editing $PATH (Part 1)
+
+We can add directories to our $PATH:
+```
+$ export PATH=$PATH:directory
+```
+
+Where `directory` is the path of the directory we want to add.
+
+In our case:
+```
+$ export PATH=$PATH=~/blah
+```
+
+Or, to use the current directory, we can use the `$PWD` environment variable (Print Working Directory):
+```
+$ export PATH=$PATH=$PWD
+```
+
+Note:
+- `pwd` is a PROGRAM, a shell builtin / binary
+- `$PWD` is an environment variable, and this is printed by the `pwd` program
+
+
+Let's recheck our $PATH:
+```
+$ echo $PATH
+
+/Users/danielmoi/.npm-packages/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/danielmoi/blah
+```
+
+We can see that our current directory (which holds our new program / shell script) has been appended to the list of directories.
+
+Now let's run our `magic` shell script:
+```
+$ magic
+
+ABRA!
+```
+
+This will work in any directory now!
+
+## Editing $PATH (Part 2)
 
 
 
