@@ -90,7 +90,7 @@ $ ls -a >> out.txt
 
 Append this line to a file
 ```
-$ echo "HELLO THERE" >> out.txt
+$ echo 'HELLO THERE' >> out.txt
 ```
 
 Append standard input to a file
