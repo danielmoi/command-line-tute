@@ -78,7 +78,7 @@ For the 3 different user groups, there are 24 possible combinations.
 We can represent the elected permission set for these 3 groups with 3 octal digits.
 
 ---
-So, to implment this:
+So, to implement this:
 - current user: read, write, executable permission (`rwx`, or `7`)
 - user group: nothing (`---`, or `0`)
 - others: nothing (`---`, or `-0`)
@@ -103,6 +103,14 @@ For scripts there are 2 common number sequences:
 Use `755` when you want everybody to be able to read and execute the file (and for you to be able to write / edit the file).
 
 Use `700` if you want the script to be private (only you can read, write, and execute the file).
+
+
+---
+## Directory permissions
+The permission set for directories is associated with slightly different actions:
+- r - read the contents of the directory (ie do an `ls`)
+- w - write into the directory (ie create files and directories)
+- x - enter that directory (ie `cd`)
 
 
 ---
