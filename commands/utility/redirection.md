@@ -87,3 +87,15 @@ List all files and directories and save it to `out.txt`:
 ```
 $ ls -a >> out.txt
 ```
+
+Append this line to a file
+```
+$ echo "HELLO THERE" >> out.txt
+```
+
+Append standard input to a file
+```
+$ cat >> out.txt
+<ENTER TEXT IN THE COMMAND LINE>
+<CTRL-D when finished>
+```
