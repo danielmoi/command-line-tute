@@ -115,7 +115,48 @@ ABRA!
 
 This will work in any directory now!
 
+---
 ## Editing $PATH (Part 2)
+
+Editing the $PATH like we have is not permanent - if we restart our terminal session:
+```
+iTerm Menu > Session > Restart session
+```
+
+And we try our `magic` command again, we get our `not found` error again:
+```
+$ magic
+
+zsh: command not found: magic
+```
+
+This is because our `$PATH` edits have been temporary.
+
+We can edit our shell configuration file.
+
+Because we are using the `zsh` shell, this is the `~/.zshrc` file.
+
+We will look into configuring our `.zshrc` in a later lesson.
+
+Let's add the path to our command into the `$PATH` environment variable.
+
+Note: use an absolute path (avoid relative paths in shell configuration files, and `$PWD` will reference the directory of the `.zshrc` file, which is not what we want)
+```
+export PATH=$PATH:<path-to-command>
+```
+
+For my machine, it looks like this:
+```
+export PATH=$PATH:/Users/danielmoi/blah
+```
+
+
+Now, even after restarting our terminal session / machine, our command works!
+
+```
+$ magic
+ABRA!
+```
 
 
 
