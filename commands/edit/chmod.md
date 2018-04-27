@@ -24,12 +24,12 @@ It may also be used to modify the Access Control Lists (ACLs) associated with th
 
 ---
 ## Examples
-Grant execute permission to current user
+Grant execute permission to user
 ```
 $ chmod u+x file.sh
 ```
 
-Grand read, write, and execute permission to file user group
+Grant read, write, and execute permission to file user group
 ```
 $ chmod g+rwx file.sh
 ```
@@ -79,8 +79,8 @@ We can represent the elected permission set for these 3 groups with 3 octal digi
 
 ---
 So, to implement this:
-- current user: read, write, executable permission (`rwx`, or `7`)
-- user group: nothing (`---`, or `0`)
+- user: read, write, executable permission (`rwx`, or `7`)
+- group: nothing (`---`, or `0`)
 - others: nothing (`---`, or `-0`)
 
 That is, we would use `700`:
@@ -92,11 +92,11 @@ $ chmod 700 file.sh
 For scripts there are 2 common number sequences:
 - `755`
   - user: read, write, execute
-  - user group: read, execute
+  - group: read, execute
   - others: read, execute
 - `700`
   - user: read, write, execute
-  - user group: none
+  - group: none
   - others: none
 
 
