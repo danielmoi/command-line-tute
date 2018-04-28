@@ -42,6 +42,7 @@
       * [`cp`](/commands/edit/cp.md)
       * [`rm`](/commands/edit/rm.md)
       * [`ln`](/commands/edit/ln.md)
+      * [`chmod`](/commands/edit/chmod.md)
 
     * Help
       * [`man`](/commands/help/man.md)

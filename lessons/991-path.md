@@ -1,6 +1,18 @@
 # Path
 
-We're going to look at the paths and the `$PATH` environment variable.
+Let's look at paths and the `$PATH` environment variable.
+
+---
+## Paths
+A path is the location to a resource.
+
+Every file and directory on a computer has their own path.
+
+A path tells the computer where to look, in order to locate that resource.
+
+
+---
+## Executable path
 
 We made our shell script `magic` in the previous lesson.
 
