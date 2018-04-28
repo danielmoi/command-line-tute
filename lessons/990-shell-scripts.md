@@ -64,6 +64,7 @@ $ magic
 We get this error:
 ```
 $ magic
+
 zsh: command not found: magic
 ```
 
@@ -87,6 +88,7 @@ Press `<ENTER>`
 You should see this error:
 ```
 $ ./magic
+
 zsh: permission denied: ./magic
 ```
 
@@ -100,7 +102,8 @@ We do not have permission to `execute` that file.
 ## Inspect permissions
 Let's inspect the permissions on our file:
 ```
-$  lsa magic
+$ ls -l magic
+
 -rw-r--r--  1 danielmoi  staff  42 22 Apr 11:55 magic
 ```
 
@@ -129,6 +132,36 @@ Voila!
 You should see `ABRA!` displayed in the terminal.
 
 That's your first shell script!
+
+----
+## `bin` directory
+Most Linux distributions encourage users to place their programs into their own directory - the `bin` directory.
+
+`bin` is short for binary, and relates to `binary file`, which is a file composed of something other than human-readable text.
+
+An `executable` is a type of binary file that contains machine code for a computer to execute.
+
+As such, the `bin` directory stores program.s
+
+Because each user has their own programs, let's create a `bin` directory in our home directory.
+
+
+```
+$ mkdir ~/bin
+```
+
+And now let's move our program into that `bin` directory:
+```
+$ mv magic ~/bin
+```
+
+Now, we should add that directory to our `$PATH` - in our shell configuration file (`.zshrc`):
+
+```
+export PATH=$PATH:/Users/danielmoi/bin
+```
+
+Now, any subsequent programs that we place in our `bin` directory will be found by the shell, and be accessible to execute from inside any working directory!
 
 
 
