@@ -24,7 +24,7 @@ The command line is available on all computers.
 - connect to remote databases
 - update remote server files
 
-### 2. Cool things
+### 2. Some other reasons
 Here are some [examples](/cool-things.md) of some neat things we can do in the command line.
 
 
