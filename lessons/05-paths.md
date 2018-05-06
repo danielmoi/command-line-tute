@@ -1,4 +1,4 @@
-# Where am I?
+# Paths - aka Where am I?
 
 At the moment, your terminal is showing this:
 ```
