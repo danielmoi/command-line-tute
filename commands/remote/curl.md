@@ -76,3 +76,32 @@ Or we can use the same file name as the remote file, by using the `-O` flag:
 ```
 curl -O https://raw.githubusercontent.com/danielmoi/dotfiles/master/vimrc
 ```
+
+---
+## HTTP Methods
+By default you use curl without explicitly saying which request method to use.
+
+If you just pass in a HTTP URL like `curl http://example.com` it will use `GET`.
+
+If you use `-d` or `-F` `curl` will use `POST`
+
+`-I` will cause a `HEAD`
+
+and `-T` will make it a `PUT`.
+
+If for whatever reason you're not happy with these default choices that curl does for you, you can override those request methods by specifying -X [WHATEVER]. This way you can for example send a DELETE by doing curl -X DELETE [URL].
+
+It is thus pointless to do curl -XGET [URL] as GET would be used anyway. In the same vein it is pointless to do curl -X POST -d data [URL]... But you can make a fun and somewhat rare request that sends a request-body in a GET request with something like curl -X GET -d data [URL]
+
+https://stackoverflow.com/questions/8498371/curl-get-and-x-get
+
+
+```
+curl -X POST \
+  https://something.com \
+  -H 'Authorization: Bearer myTokenString' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "accountId": "8c0e5092-602e-4fd7-82e9-64e2cee82e9b"
+}'
+```
