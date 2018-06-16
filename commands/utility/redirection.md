@@ -24,12 +24,26 @@ Redirections are processed in the order they appear, from left to right.
 ## `<` operator
 
 This operator directs input to a command
+
+COMMAND < INPUT
+
 ## Examples
 Give the file `readme.md` to the `wc` command
 ```
 $ wc < readme.md
 
       47     189    1213
+```
+
+Copy "HELLO" to the clipboard
+(`pbcopy` is pasteboard copy)
+```
+$ pbcopy < "HELLO"
+```
+
+Copy the contents of the `id_rsa.pub` file to your clipboard
+```
+$ pbcopy < ~/.ssh/id_rsa.pub
 ```
 
 
