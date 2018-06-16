@@ -46,3 +46,16 @@ ls | wc -l
 
 10
 ```
+
+Copy string to clipboard
+```
+$ echo 'HELLO' | pbcopy
+
+# <PASTE / CTRL-V>
+HELLO
+```
+
+Copy current directory path to clipboard
+```
+$ pwd | pbcopy
+```
