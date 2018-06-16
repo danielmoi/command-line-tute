@@ -35,11 +35,6 @@ $ wc < readme.md
       47     189    1213
 ```
 
-Copy "HELLO" to the clipboard
-(`pbcopy` is pasteboard copy)
-```
-$ pbcopy < "HELLO"
-```
 
 Copy the contents of the `id_rsa.pub` file to your clipboard
 ```
