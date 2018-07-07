@@ -47,6 +47,8 @@ A common value:
 /usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin
 ```
 
-## SHELL
+## $SHELL
 The full pathname to the shell.
+
+
 
