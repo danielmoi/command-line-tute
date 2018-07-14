@@ -94,3 +94,17 @@ NB. there must be a `SPACE` after the `!` (`!` is used for history autocompletio
 ----
 ## C. Pipe Operator
 See [pipe operator](/commands/pipe.md)
+
+----
+## D. Test
+The `test` command.
+
+If `~/.zshrc` exists, print 'REAL FILE' to stdout.
+```
+$ test -f ~/.zshrc & echo 'REAL FILE'
+```
+
+Shorthand, we can use the square brackets: `[ ]`:
+```
+$ [ -f ~/.zshrc ] && echo 'REAL FILE'
+```
