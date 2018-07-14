@@ -97,7 +97,12 @@ See [pipe operator](/commands/pipe.md)
 
 ----
 ## D. Test
-The `test` command.
+The `test` command ("condition evaluation utility")
+Shorthand: `[]`
+```
+$ test expression
+$ [ expression ]
+```
 
 If `~/.zshrc` exists, print 'REAL FILE' to stdout.
 ```
